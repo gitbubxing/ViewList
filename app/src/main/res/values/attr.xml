@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="text" format="string|reference"/>
+    <attr name="first_text_size" format="dimension"/>
+    <attr name="first_text_color" format="color|reference"/>
+    <attr name="second_text_size" format="dimension"/>
+    <attr name="second_text_color" format="color|reference"/>
+    <attr name="speed" format="integer"/>
+    <attr name="direction">
+        <enum name="left" value="0"/>
+        <enum name="right" value="1"/>
+        <enum name="top" value="2"/>
+        <enum name="bottoom" value="3"/>
+
+    </attr>
+<declare-styleable name="ChangeColorView">
+    <attr name="text"/>
+    <attr name="first_text_size" />
+    <attr name="first_text_color" />
+    <attr name="second_text_size" />
+    <attr name="second_text_color" />
+    <attr name="speed" />
+</declare-styleable>
+
+</resources>
